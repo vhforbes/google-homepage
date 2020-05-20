@@ -1,0 +1,121 @@
+
+body {
+    font-family: sans-serif;
+  }
+
+
+/* Header */
+
+header {
+    text-align: right;
+    margin: -15px 0px 0px 0px;
+}
+
+.headericons {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.headericons:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#options {
+    position: relative;
+    top: 10px;
+}
+
+#profile {
+    position: relative;
+    top: 14px;
+}
+
+
+
+/* Main Search */
+
+#main {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#logo {
+    padding: 0px 0px 25px 0px;
+}
+
+#search {
+    border: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgba(180, 180, 180, 0.384);
+    height: 35px;
+    width: 500px;
+}
+
+.button {
+    color: rgb(75, 75, 75);
+    background-color: rgba(128, 128, 128, 0.11);
+    margin: 25px 7px 0px 7px;
+    border: transparent;
+    border-radius: 6px;
+    height: 40px;
+    width: 130px;
+}
+
+.button:hover {
+    color: rgba(0, 0, 0, 0.8);
+    border: solid;
+    border-width: 0.5px;
+    border-color: rgba(128, 128, 128, 0.301);
+    
+}
+
+
+/* Footer */
+
+#fbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.034);
+    border: solid;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #e4e4e4;
+    border-width: 1px;
+    color: rgb(95, 95, 95);
+   font-size: 15px;
+    
+}
+
+.brazil {
+    position: relative;
+    padding: 10px 0px 10px 20px;
+
+}
+
+
+.bottom {
+
+    border-top: solid;
+    border-width: 1px;
+    padding: 10px 0px 10px 20px;
+    border-color: #e4e4e4;
+}
+
+.left {
+    position: relative;
+    padding-right: 30px;
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+}
+
+.rightelm {
+    padding-left: 30px;
+}
